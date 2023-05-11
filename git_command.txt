@@ -17,4 +17,5 @@ $ touch .gitignore		// create hidden file .gitignore
 
 $ git rm file1.txt		// remove file1.txt
 $ git clone ...com		// clone someone's project
-$ git merge branch1			// stay on one master branch, branch1 will merge on to master
+$ git merge branch1		// stay on one master branch, branch1 will merge on to master
+Alice was here
