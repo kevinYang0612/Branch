@@ -1,0 +1,20 @@
+Git command:
+$ git init 			// initiate a local repository
+$ git add xxx.txt || git add .  // add certain or all files to your next commit(stage)
+$ git status 			// checking the status
+$ git commit -m "message" 	// commit your staged content, update to the newest version
+$ git diff 			// diff of what is changed but not staged
+$ git diff --staged 		// diff of what is staged but not yet committed
+$ git log			// show the commit history for the current active branch
+
+$ git remote add origin yourRemoteRepo	// push to GitHub
+$ git push -u origin master	// master or other branch, transmit local branch commits to remote
+$ git push origin master	// a regular way
+$ git push			// plain
+$ git branch branch1		// create a branch1
+$ git checkout branch1		// switch to branch1
+$ touch .gitignore		// create hidden file .gitignore
+
+$ git rm file1.txt		// remove file1.txt
+$ git clone ...com		// clone someone's project
+$ git merge branch1			// stay on one master branch, branch1 will merge on to master
