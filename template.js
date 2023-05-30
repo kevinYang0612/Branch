@@ -6,6 +6,8 @@ const app = express();
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 
+mongoose.connect("mongodb://localhost:27017/myDB");
+
 app.get("/", (req, res) =>
 {
     res.send("hello");
